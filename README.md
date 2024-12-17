@@ -1,3 +1,11 @@
+# This my Resume Builder website Front end
+
+### here My site desktop view
+![My Resume Site Desktop](/Screen_Short.jpeg)
+
+### here is my site mobile ciew
+![My Resume Site Mobile](/Mob_Screen_Short.jpeg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
