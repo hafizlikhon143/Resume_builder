@@ -1,0 +1,11 @@
+#form-bx-2{
+    width: 100%;
+    justify-content: unset;
+    align-items: unset;
+}
+#form-bx-2 .main_cont_form label{
+    flex: unset;
+}
+#form-bx-2 #objective{
+    grid-column: 1/ span 2;
+}

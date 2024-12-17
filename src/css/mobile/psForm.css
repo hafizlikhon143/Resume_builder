@@ -1,0 +1,22 @@
+/* Personal Form */
+@media screen and (min-width:0px){
+    .main_cont_form{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:680px){
+    .main_cont_form{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:900px){
+    .main_cont_form{
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:1150px) {
+    .main_cont_form{
+        grid-template-columns: 1fr 1fr;
+    }
+}

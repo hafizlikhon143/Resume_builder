@@ -1,0 +1,14 @@
+#ref_btn{
+    grid-column: 1/ span 2;
+    margin: 20px 10px;
+}
+#aoe_list{
+    grid-column: 1/ span 2;
+}
+
+#form-bx-7{
+    justify-content: unset;
+}
+#form-bx-7 .form_input label{
+    flex: unset;
+}

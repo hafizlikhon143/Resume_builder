@@ -1,0 +1,17 @@
+#main_cont_dashboard{
+    height: calc(95vh - 100px);
+    background-color: #ffffffbe;
+    font-size: 12px!important;
+    border-radius: 5px;
+}
+#cv_list{
+    overflow-y: scroll;
+}
+#list_header{
+    font-size: 15px!important;
+}
+.cont{
+    max-height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: 10px;
+}

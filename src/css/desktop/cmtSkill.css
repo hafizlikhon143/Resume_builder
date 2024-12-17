@@ -1,0 +1,26 @@
+#cmtskill_name_form {
+    grid-column: 1/ span 2;
+    width: 100%;
+}
+
+#form-bx-8 {
+    justify-content: unset;
+    align-items: unset;
+}
+
+#form-bx-8 .main_cont_form{
+    padding-bottom: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+#cmtskill_list{
+    margin-top: 0px!important;
+}
+
+#form-bx-8 #cmtskill_name_form label {
+    flex: inherit;
+}
+
+#form-bx-8 .btn_add {
+    margin: 30px 10px;
+}

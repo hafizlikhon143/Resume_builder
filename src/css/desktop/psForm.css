@@ -1,0 +1,25 @@
+/* Personal Form */
+
+.form_cont_outter{
+    position: relative;
+}
+#form-bx-1 {
+    justify-content: unset;
+}
+
+#form-bx-1 .form_input label {
+    flex: unset;
+}
+#blood_type_input{
+    outline: none;
+    width: -webkit-fill-available;
+    text-align: center;
+    border: 0;
+    border-bottom: 2px #000 solid;
+    height: 50px;
+}
+.form_label{
+    padding: 0 !important;
+    text-align: left;
+    width: 68px;
+}

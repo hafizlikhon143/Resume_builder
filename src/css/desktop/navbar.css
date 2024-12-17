@@ -1,0 +1,122 @@
+body{
+    position: relative;
+}
+#main_nav{
+    z-index: -1;
+    display: flex;
+    background-color: var(--primary_color);
+    padding-top: 10px;
+    height: 200px;
+    font-family: var(--primary_font);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#main_nav > *{
+    flex: 1;
+    margin: auto;
+}
+#main_nav #nav_header{
+    height: 40px;
+    margin: 5px 0px;
+    padding: 0px 20px;
+    font-size: 31px;
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--secondary_color);
+}
+#main_nav .nav_items{
+    height: 40px;
+    list-style-type: none;
+    display: flex;
+    margin: 5px auto;
+    align-items: center;
+    color: #000;
+}
+#main_nav .nav_item{
+    margin: 0px 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+#main_nav .nav_link{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+#main_nav .nav_link:hover{
+    color: rgba(255, 255, 255, 0.829);
+}
+/* .u_cont User_interactions */
+#main_nav .u_cont{
+    display: flex;
+    margin-right: 20px;
+    margin-left: auto;
+    align-items: center;
+    font-family: var(--primary_font);
+}
+#main_nav .u_cont > *{
+    margin: 0px 2px;
+    color: var(--secondary_color);
+}
+#main_nav .u_cont .u_menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize;
+}
+#main_nav .u_cont .u_menu .u_status{
+    font-size: 10px;
+    opacity: 0.8;
+}
+#main_nav .u_cont .u_menu > *{
+    font-size: 12px;
+    font-weight: bolder;
+}
+#main_nav #u_avater{
+    width: 30px;
+}
+
+/* user nav dropdown */
+
+.user_nav_dropdown{
+    z-index: 2;
+    width: fit-content;
+    position: fixed;
+    right: 20px;
+    top: 60px;
+    list-style-type: none;
+    padding: 20px 20px;
+    background-color: var(--secondary_color);
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px var(--primary_color);
+    transform: scale(0);
+}
+.user_nav_dropdown li{
+    padding: 2px;
+    background-color: var(--secondary_color);
+    margin: 2px 0px;
+    display: flex;
+}
+.user_nav_dropdown li a{
+    text-decoration: none;
+    color: var(--primary_color);
+    text-transform: uppercase;
+    font-family: var(--primary_font);
+    font-weight: bolder;
+    font-size: 15px;
+    width: 100%;
+}
+
+.user_nav_dropdown li a:hover{
+    background-color: rgba(0, 0, 0, 0.027);
+}
+.user_nav_dropdown .menu_header{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10px;
+}

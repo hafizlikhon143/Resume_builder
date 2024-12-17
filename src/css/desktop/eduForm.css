@@ -1,0 +1,30 @@
+
+#edu_form .form_input input{
+    flex: 1;
+}
+#edu_form .form_input label{
+    flex: inherit;
+    margin-left: 5px;
+}
+
+#form-bx-4{
+    justify-content: unset;
+}
+
+#edu_form #edu_btn{
+    margin: 20px 10px;
+}
+.edu_list{
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 10px;
+    border-radius: 15px;
+    grid-column: 1/ span 2;
+}
+.edu_list .list_header{
+    font-weight: bolder;
+}
+.edu_list li{
+    margin-left: 10px;
+    font-size: 15px;
+}

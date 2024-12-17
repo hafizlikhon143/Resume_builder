@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* border: 1px #000 solid; */
+}
+#scrollable{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: calc(100vh - 120px);
+
+}
+#cv_cont{
+  width: 8.3in;
+  height: 11.7in;
+  display: grid;
+  margin: auto;
+  background-color: #fff;
+}
+.cv_main{
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  /* border: 1px #000 solid; */
+  margin: 50px auto;
+  padding: 0.2in;
+  grid-column-gap: 10px;
+  color: rgb(0, 0, 0);
+}
+.img_cont{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.name_and_title{
+  display: flex;
+  flex-direction: column;
+}
+.name_and_title .job_title{
+  font-weight: lighter;
+  font-size: 24px;
+  -webkit-text-stroke: 0.2px #fff;
+}
+.name_and_title .full_name{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.name_and_title .bios{
+  padding-top: 20px;
+}
+.header{
+  font-size: 19px;
+  font-weight: bold;
+  background: rgb(5, 88, 136);
+  color: #fff;
+  display: flex;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.header svg{
+  font-size: 19px;
+  margin-right: 10px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/2;
+}
+.contact > *{
+  margin-left: 10px;
+}
+.contact > .header{
+  margin-left: 0px!important;
+}
+.skills_list{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.skills_list ul{
+  margin-left: 10px;
+}
+.education{
+  grid-column: 1/2;
+  grid-row: 4/6;
+}
+.education ul{
+  margin: 10px;
+}
+.education .inst_name{
+  font-weight: bold;
+  font-size: 14px;
+}
+.work_exp{
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+.work_exp li{
+  margin: 10px;
+}
+.work_exp .work_inst_name{
+  font-size: larger;
+}
+ul{
+  list-style-type: none;
+}
+.custom_list{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.custom_list li{
+  margin-left: 10px;
+}
+.custom_field{
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.custom_field p{
+  margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+#form-bx-6{
+    justify-content: unset;
+}
+#aoe_form .form_input{
+    grid-column: 1/ span 2;
+}
+#aoe_form .form_input label{
+    flex: unset;
+}
+#aoe_form .btn_add{
+    grid-column: 1/ span 2;
+    margin: 20px 10px;
+}
+#aoe_form #aoe_list{
+    grid-column: 1/ span 2;
+}

@@ -1,0 +1,14 @@
+#profile_cont{
+    background-color: #fff;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#profile_img_cont{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,84 @@
+/* HTML_Style Reset */
+
+:root{
+    --primary_font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary_color: #303030;
+    --secondary_color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.btn_add{
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    color: #222;
+    transition: all ease-in-out 0.2s;
+}
+.btn_add:hover{
+    background-color: #000;
+    color: #fff;
+    border: transparent;
+}
+.note{
+    font-size: 12px;
+    font-weight: bolder;
+    color: #303030;
+}
+
+.order_list_design {
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.11);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.order_list_design .list_header {
+    font-weight: bolder;
+}
+.order_list_design li {
+    margin-left: 30px;
+    font-size: 14px;
+}
+/* HTML Variable */
+
+
+/* page_nav_btn */
+.btn_cont{
+    display: flex;
+    height: 50px;
+}
+.btn_cont_inner{
+    flex: 1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.n_btn{
+    text-decoration: none;
+    border: 1px #000 solid;
+    width: 50px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#btn-1{
+    border-color: #ff4242;
+    color: #ff4242;
+}
+.commit_btn{
+    margin: auto;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

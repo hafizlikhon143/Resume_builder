@@ -1,0 +1,19 @@
+#language_form{
+    grid-column: 1/ span 2;
+    width: 100%;
+}
+#form-bx-5{
+    justify-content: unset;
+    align-items: unset;
+}
+#form-bx-5 #language_form label{
+    flex: inherit;
+}
+#form-bx-5 .main_cont_form{
+    padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
+}
+#form-bx-5 .btn_add{
+    margin: 30px 10px;
+}
+

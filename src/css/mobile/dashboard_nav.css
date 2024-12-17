@@ -1,0 +1,11 @@
+
+@media screen and (max-width: 520px) {
+    #option_list_cont{
+        border: 1px #000 solid!important;
+        position: fixed;
+        left: 5px;
+        top: 120px;
+        width: 300px;
+        display: none;
+    }
+}
